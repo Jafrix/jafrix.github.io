@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!------------------- NAV SECTION ------------------------>
+    <nav>
+      <div class="container">
+        <div class="nav-wrapper">
+          <div class="nav-list">
+            <img src="./img/logo.jpg" alt="logo" />
+            <a class="but" href="#skills-anchor">Навыки</a>
+            <a class="but" href="#portfolio-anchor">Портфолио</a>
+            <!-- <a class="but" href="#how-work-anchor">Как я работаю</a> -->
+            <a class="but" href="#contacts-anchor">Контакты</a>
+          </div>
+          <div class="nav-links">
+            <a href="#!" class="link">
+              <img src="./img/linkedin.png" alt="linkedin" />
+            </a>
+            <a href="https://github.com/Jafrix" class="link" target="_blank">
+              <img src="./img/github.png" alt="github" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!------------------- DESCRIPTION SECTION ------------------------>
+    <header>
+      <div class="container">
+        <div class="header-wrapper flex">
+          <div class="header-description">
+            <h1>Андрей Веселов</h1>
+            <p>Фронтенд разработчик, работаю в городе Санкт-Петербург</p>
+            <div class="buttons">
+              <button class="button left">Портфолио</button>
+              <button class="button">Контакты</button>
+            </div>
+          </div>
+          <div class="header-foto">
+            <img src="./img/photo.jpg" alt="foto" class="description-foto" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <img class="background-img" src="./img/header-bg.jpg" alt="image" />
+    <!---------------------------------- SKILLS ----------------------------------->
+    <main class="main">
+      <div class="container">
+        <div id="skills-anchor" class="skills blocks">
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>React</li>
+            <li>NodeJS</li>
+          </ul>
+
+          <img src="./img/skills.jpeg" alt="skills" />
+        </div>
+        <!-------------------------------- PORTFOLIO SECTION ----------------------------------->
+        <div id="portfolio-anchor" class="portfol blocks">
+          <div>
+            <a href="#" target="_blank"
+              ><img src="./img/card1.png" alt="card1"
+            /></a>
+          </div>
+          <div>
+            <a href="#" target="_blank"
+              ><img src="./img/card2.png" alt="card2"
+            /></a>
+          </div>
+        </div>
+        <!----------------------------- CONTACTS SECTION -------------------------------->
+        <div class="contacts-wrapper">
+          <div id="contacts-anchor" class="contacts">
+            <div>Email :</div>
+            <div>Mobile phone :</div>
+            <div>Socials :</div>
+          </div>
+
+          <div class="contacts-link">
+            <div class="links">
+              <a class="email" href="mailto:lifeforglory@gmail.com"
+                >lifeforglory@gmail.com</a
+              >
+            </div>
+            <div class="links">
+              <a class="tel" href="tel:+78211234599">(812) 123-45-99</a>
+            </div>
+            <div class="links">
+              <a href="#" target="_blank" class="socials"
+                ><img src="./img/telegram.png" alt="tg"
+              /></a>
+              <a href="#" target="_blank" class="socials"
+                ><img src="./img/vk.png" alt="vk"
+              /></a>
+              <a href="#" target="_blank" class="socials"
+                ><img src="./img/whatsapp.png" alt="wu"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- ----------------- FOOTER SECTION ---------------------- -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrapper">
+          <p class="footer__name">2024 - Андрей Веселов</p>
+          <p class="footer__description">
+            Веб-разработчик из Санкт-Петербурга, занимаюсь фронтенд (frontend)
+            разработкой.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
